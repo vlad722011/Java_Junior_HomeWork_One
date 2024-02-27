@@ -18,7 +18,7 @@ public class Main {
         System.out.println(list.toString());
         System.out.println();
 
-        System.out.println("Надйем среднее значение четных чисел полученного списка, используя Srteam-ы! \n");
+        System.out.println("Найдем среднее значение четных чисел полученного списка, используя Srteam-ы! \n");
         System.out.println("Для начала получим из входящего списка, список содержащий только четные числа:");
         ArrayList<Integer> newList = (ArrayList<Integer>) list.stream().filter(x -> x % 2 == 0).collect(Collectors.toList());
         System.out.println(newList);
